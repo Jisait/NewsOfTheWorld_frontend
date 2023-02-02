@@ -18,7 +18,7 @@ function Home() {
   const [topArticle, setTopArticle] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:3000/USA`)
+    fetch(`https://news-of-the-world-backend-jisait.vercel.app/USA`)
       .then(response => response.json())
       .then(data => {
         dispatch(addLanguageToStore({country: "USA", language: "en-US"}));
