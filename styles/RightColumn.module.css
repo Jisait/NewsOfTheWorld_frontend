@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.date {
+    display: flex;
+    align-items: center;
+    font-family: "Arial";
+    font-size: 11px;
+    padding: 15px 0px 6px 15px;
+    color: rgb(122, 122, 122);
+    background-color: rgb(255, 255, 255);
+}
+
+.columnPosition{
+    display: flex;
+    align-items: center;
+    font-family: "Merriweather";
+    font-size: 12px;
+    padding: 0px 15px 15px 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.trait {
+    background-color: teal;
+    height: 1px
+}
+
+
+
+

@@ -1,7 +1,7 @@
 import HomeFra from '../components/HomeFra';
 
-function Index() {
+function Homepage() {
   return <HomeFra />;
 }
 
-export default Index;
+export default Homepage;

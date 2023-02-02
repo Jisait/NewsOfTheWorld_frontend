@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.header {
+    position:fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px 5px 5px rgba(0,0,0, 0.1);
+    border-bottom: 2px solid seagreen
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-family: "Merriweather";
+    margin: 0px;
+}
+
+.paperTitle {
+    font-size: 17px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+.category {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: tomato;
+}
+
+.follow {
+    font-family: "Merriweather";
+    margin-top: 2px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 20px;
+    color: grey;
+}
+.logos {
+    display: flex;
+ 
+}
+
+.flags {
+    display: flex;
+    margin-right: 26px;
+}
+
+.flag {
+    height: 27px;
+    margin-left: 10px;
+    opacity: 0.3
+}
+
+.flagSelected {
+    height: 27px;
+    margin-left: 10px;
+    outline : green solid 1px;
+    border-radius: 50%;
+    padding: 2px;
+    opacity: 1;
+}
+
+.flag:hover {
+    outline : rgb(202, 202, 202) solid 1px;
+    border-radius: 50%;
+    padding: 2px;
+    opacity: 1;
+}

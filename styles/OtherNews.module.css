@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+    height: 40px;
+    width: 254px;  
+}
+.image {
+    padding:10px 10px 0px 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    width: 254px;
+    height: 120px;
+}
+
+.article {
+    font-size: 12px;
+    font-family: "Merriweather";
+    background-color: white;
+    padding: 8px 10px 10px 15px;
+    margin-left: 5px;
+    width: 239px;
+    box-sizing: border-box;
+    border-bottom: solid 1px seagreen;
+}
