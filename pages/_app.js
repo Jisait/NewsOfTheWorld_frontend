@@ -13,7 +13,8 @@ function App({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <Head>
-        <title>Next.js App</title>
+        <title>News Of The World</title>
+        <link rel="icon" href="/icon_News.png" />
       </Head>
       <Component {...pageProps} />
     </Provider>
